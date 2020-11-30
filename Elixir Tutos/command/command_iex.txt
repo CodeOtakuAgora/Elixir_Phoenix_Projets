@@ -1,0 +1,4 @@
+iex> attrs = %{name: "Genserver Basics", url: "https://www.youtube.com/watch?v=Rui1HVIyR-E"}
+iex> recompile()
+iex> Omgneering.Video.create_video_record(attrs)
+iex> Omgneering.Repo.all(Omgneering.Video)

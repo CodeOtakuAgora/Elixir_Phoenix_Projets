@@ -1,0 +1,9 @@
+mix local.hex
+mix archive.install hex phx_new 1.4.6
+mix phx.new omgneering --database mysql
+cd omgneering
+mix deps.get
+mix ecto.create
+mix phx.gen.schema Video videos name:string url:string
+mix ecto.create
+iex -S mix phx.server

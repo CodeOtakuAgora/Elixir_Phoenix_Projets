@@ -1,0 +1,9 @@
+elixir --version
+mix phx.new hello-web
+wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
+mix phx -v
+mix hex.outdated
+mix archive.uninstall phx_new
+mix archive.install hex phx_new 1.5.0
+mix local.hex
+mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v1.0.3/phoenix_new-1.0.3.ez

@@ -1,0 +1,6 @@
+mix new test
+mix new demo --sup
+iex
+mix test
+iex -S mix
+elixir port 4000
