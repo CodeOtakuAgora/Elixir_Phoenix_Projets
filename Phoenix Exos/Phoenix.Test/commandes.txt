@@ -1,0 +1,1 @@
+mix phoenix.new hello_phoenix --database mysql

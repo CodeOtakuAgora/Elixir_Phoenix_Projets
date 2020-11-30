@@ -1,0 +1,6 @@
+mix help
+mix help hex.search
+mix hex.search facebook
+mix new my_first_application
+mix new pluralsight_tweet --sup
+mix test
